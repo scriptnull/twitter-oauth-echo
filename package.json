@@ -1,6 +1,6 @@
 {
   "name": "twitter-oauth-echo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express Middleware for Twitter Oauth Echo",
   "main": "index.js",
   "scripts": {
