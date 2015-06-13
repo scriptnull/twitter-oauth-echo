@@ -29,7 +29,7 @@ var router = express.Router();
 router.all('*' , twitterEcho());
 
 router.get('/hello' , function(req , res ){
-	res.send('hello');
+	res.send('hello will be sent if req is authorized.');
 });
 
 module.exports = router ;
@@ -40,4 +40,5 @@ module.exports = router ;
 - [Twitter OAuth Echo for Android](https://dev.twitter.com/twitter-kit/android/oauth-echo)
 - [Twitter OAuth Echo for IOS](https://dev.twitter.com/twitter-kit/ios/oauth-echo)
 
-###License 
+### License 
+This repository is licensed under the [MIT License](https://github.com/scriptnull/twitter-oauth-echo/blob/master/LICENSE) 
