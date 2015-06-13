@@ -1,13 +1,9 @@
-### twitter-oauth-echo
-A Simple Express middleware for Twitter OAuth Echo authorization 
-
 ### Installation 
-
 ```bash 
   npm install twitter-oauth-echo --save 
 ```
 
-###Basic Usage
+### Basic Usage
 Request must contain x-auth-service-provider and x-verify-credentials-authorization headers.View [resources](#resources) for more info.
 
 ```javascript
